@@ -1,5 +1,5 @@
 
-$repo = "C:\Users\research_logs"
+$repo = $PSScriptRoot
 
 $today = Get-Date
 $date = $today.ToString("yyyy_MM_dd")
